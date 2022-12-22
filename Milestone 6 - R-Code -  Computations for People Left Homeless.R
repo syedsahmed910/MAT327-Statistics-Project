@@ -1,0 +1,8 @@
+install.packages("tidyverse")
+library(tidyverse)
+palestinedemo <- read_csv("palestinedemo.csv")
+data <- read.csv("palestinedemo.csv")
+mean(data$People.Left.Homeless)
+median(data$People.Left.Homeless)
+var(data$People.Left.Homeless)
+sd(data$People.Left.Homeless)
